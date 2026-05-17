@@ -1,0 +1,15 @@
+[build]
+  base    = "frontend"
+  publish = "frontend"
+  command = "echo 'Static site ready'"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "DENY"
+    X-Content-Type-Options = "nosniff"
