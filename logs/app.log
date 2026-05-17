@@ -1,0 +1,19 @@
+2026-05-17 10:00:01 INFO  Server started on port 3000
+2026-05-17 10:01:15 INFO  GET /health 200 5ms
+2026-05-17 10:02:30 ERROR Database connection failed: ECONNREFUSED 127.0.0.1:5432
+2026-05-17 10:02:31 ERROR Retrying database connection (1/5)
+2026-05-17 10:04:22 WARN  High memory usage: 85%
+2026-05-17 10:05:10 ERROR Unhandled exception: TypeError: Cannot read property 'id' of undefined
+2026-05-17 10:07:45 ERROR Database connection failed: ECONNREFUSED 127.0.0.1:5432
+2026-05-17 10:08:00 ERROR Authentication failed for user: john@example.com
+2026-05-17 10:10:00 ERROR FATAL: Out of memory - process exiting
+cat > logs/app.log << 'EOF'
+2026-05-17 10:00:01 INFO  Server started on port 3000
+2026-05-17 10:01:15 INFO  GET /health 200 5ms
+2026-05-17 10:02:30 ERROR Database connection failed: ECONNREFUSED 127.0.0.1:5432
+2026-05-17 10:02:31 ERROR Retrying database connection (1/5)
+2026-05-17 10:04:22 WARN  High memory usage: 85%
+2026-05-17 10:05:10 ERROR Unhandled exception: TypeError: Cannot read property 'id' of undefined
+2026-05-17 10:07:45 ERROR Database connection failed: ECONNREFUSED 127.0.0.1:5432
+2026-05-17 10:08:00 ERROR Authentication failed for user: john@example.com
+2026-05-17 10:10:00 ERROR FATAL: Out of memory - process exiting
